@@ -1,0 +1,64 @@
+{
+  "bot_token": "",
+  "active_response_file": "responses.json",
+  "presence": {
+    "enabled": true,
+    "update_enabled": true
+  },
+  "webhooks": {
+    "server_information": {
+      "channel_id": "1231387527118721155",
+      "enabled": true,
+      "update_enabled": true
+    },
+    "server_status": {
+      "channel_id": "1293602234080170045",
+      "enabled": false,
+      "update_enabled": true  
+    },
+    "server_rules": {
+      "channel_id": "1226045577968488550",
+      "enabled": true,
+      "update_enabled": true  
+    }
+  },
+  "server_name": "Age Of Kings: War of the Roses",
+  "server_ip": "51.222.244.52",
+  "server_port": "27015",
+  "query_port": "27017",
+  "update_interval": 30,
+  "last_wipe": "12/10/24",
+  "next_wipe": "No planned wipe!",
+  "map_name": "Dark Lands",
+  "map_image": "https://feudal.tools/usermaps/13735_full.jpg",
+  "livemap": "https://livemap.feudal.tools/id/11754",
+  "status_icon": "https://icon-library.com/images/status-icon-png/status-icon-png-14.jpg",
+  "pop_message": "{players} / {maxplayers}",
+  "pop_queue_message": "{players} / {maxplayers} ({queue})",
+  "pop_joining_message": "{players} / {maxplayers} ({joining} Joining)",
+  "pop_queue_joining_message": "{players} / {maxplayers} | {queue} in Queue | {joining} Joining",
+  "connecting_message": "Offline!",
+  "conditionals": {
+    "players": [
+      {"min": 0, "max": 0, "message": "No players - Server is empty"},
+      {"min": 1, "max": 10, "message": "1-10 players - just chillen"},
+      {"min": 11, "max": 29, "message": "11-29 players - relaxing"},
+      {"min": 30, "max": 50, "message": "30-50 players - getting busy"},
+      {"min": 51, "max": 63, "message": "51-63 players - busy server"},
+      {"min": 64, "max": 64, "message": "64 players - Server is full"}
+    ]
+  },
+  "rules": [
+    "No alt guilds no fobs all you characters must be in 1 guild, can ally up to 2 other claims maximum",
+    "No spamming mines to grief, no building claims on roads",
+    "No glitching inside houses or glitching arrows through walls",
+    "T3 or T4 claims must have more than 3 people",
+    "Max characters allowed are only 2",
+    "No building on mountains, no terraforming rivers",
+    "If you trashtalk back it up",
+    "No destroying siege tents outside of JH",
+    "No logging out mid JH if you're getting sieged",
+    "Siege you can use tables and siege tower but no logs or sleeping bags",  
+    "No third-party software, no Uengine, no cheating. WARNING: this server is hardcore PVP, your claim/base could get wiped during JH you get no breaks. Make sure you are on the lookout. Good luck warrior."
+  ]
+}
